@@ -1,0 +1,333 @@
+{
+  "events": [
+    {
+      "id": "f3405424-f381-468d-a30f-f81d4749c4d9",
+      "name": "Big Concert",
+      "start": "2025-05-06T14:30:45.123456",
+      "end": "2025-05-06T16:30:45.123456",
+      "venue": "Big Concert Hall",
+      "salesStart": "2025-03-06T14:30:45.123456",
+      "salesEnd": "2025-03-09T16:30:45.123456",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "id": "f3405424-f391-468d-a40f-f81d4749c4d9",
+          "name": "VIP Ticket",
+          "price": 19.99,
+          "totalAvailable": 100
+        }
+      ]
+    },
+    {
+      "id": "2a06",
+      "name": "Test Event 2",
+      "start": "2025-05-08T09:00:00.000Z",
+      "end": "2025-05-08T21:00:00.000Z",
+      "venue": "A very big venue.",
+      "salesStart": "2025-05-07T15:00:00.000Z",
+      "salesEnd": "2025-05-07T21:00:00.000Z",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "VIP",
+          "price": 99.99,
+          "description": "Test ticket type",
+          "totalAvailable": 100
+        }
+      ]
+    },
+    {
+      "id": "008f",
+      "name": "Mystery Event",
+      "start": "2025-05-08T11:00:00.000Z",
+      "end": "2025-05-08T11:00:00.000Z",
+      "venue": "Who knows?!",
+      "salesStart": "2025-05-08T11:00:00.000Z",
+      "salesEnd": "2025-05-08T11:00:00.000Z",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "Mystery Ticket Type",
+          "price": 123,
+          "description": "??????",
+          "totalAvailable": 999
+        }
+      ]
+    },
+    {
+      "id": "73ef",
+      "name": "Mystery Event 2",
+      "venue": "Who knows this time?",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "Mystery Ticket Type 2",
+          "price": 123,
+          "description": "dsafsdafsfdsadf",
+          "totalAvailable": 99
+        }
+      ]
+    },
+    {
+      "id": "26d8",
+      "name": "Test Event 3",
+      "start": "2025-05-06T09:00:00.000Z",
+      "end": "2025-05-06T13:00:00.000Z",
+      "venue": "Some venue details",
+      "status": "DRAFT",
+      "ticketTypes": [
+        {
+          "name": "VIP",
+          "price": 999,
+          "description": "sdkjbfjkhdsbff",
+          "totalAvailable": 5
+        }
+      ]
+    },
+    {
+      "id": "d5ab",
+      "name": "Test Drift UPDATED",
+      "start": "2025-05-08T15:00:00.000Z",
+      "end": "2025-05-08T16:00:00.000Z",
+      "venue": "UPDATE",
+      "salesStart": "2025-05-22T11:00:00.000Z",
+      "salesEnd": "2025-05-07T10:00:00.000Z",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "id": "008f",
+          "name": "kjbdsfkjbdf",
+          "price": 999,
+          "description": "jkdsbfjhbdfb",
+          "totalAvailable": 1
+        },
+        {
+          "name": "NEW ",
+          "price": 123,
+          "description": "NEW NEW",
+          "totalAvailable": 456
+        }
+      ]
+    },
+    {
+      "id": "4f34",
+      "name": "Test Drift 2",
+      "start": "2025-05-08T10:00:00.000Z",
+      "end": "2025-05-08T15:00:00.000Z",
+      "venue": "asdasdasdasdasdas",
+      "status": "DRAFT",
+      "ticketTypes": []
+    },
+    {
+      "id": "4187",
+      "name": "Test Drift",
+      "start": "2025-05-08T10:00:00.000Z",
+      "end": "2025-05-08T15:00:00.000Z",
+      "venue": "kjbdskjbff",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "kjbdsfkjbdf",
+          "price": 999,
+          "description": "jkdsbfjhbdfb",
+          "totalAvailable": 1
+        }
+      ]
+    },
+    {
+      "id": "b048",
+      "name": "Test Drift",
+      "start": "2025-05-08T10:00:00.000Z",
+      "end": "2025-05-08T15:00:00.000Z",
+      "venue": "kjbdskjbff",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "kjbdsfkjbdf",
+          "price": 999,
+          "description": "jkdsbfjhbdfb",
+          "totalAvailable": 1
+        }
+      ]
+    }
+  ],
+  "published-events": [
+    {
+      "id": "f3405424-f381-468d-a30f-f81d4749c4d9",
+      "name": "Big Concert",
+      "start": "2025-05-06T14:30:45.123456",
+      "end": "2025-05-06T16:30:45.123456",
+      "venue": "Big Concert Hall",
+      "salesStart": "2025-03-06T14:30:45.123456",
+      "salesEnd": "2025-03-09T16:30:45.123456",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "id": "f3405424-f391-468d-a40f-f81d4749c4d9",
+          "name": "Standard Ticket",
+          "price": 19.99,
+          "totalAvailable": 100,
+          "description": "Test Description"
+        },
+        {
+          "id": "f3405424-f391-468d-a40f-f81d4749c4d8",
+          "name": "VIP Ticket",
+          "price": 999.99,
+          "totalAvailable": 100,
+          "description": "Test Description"
+        },
+        {
+          "id": "f3405424-f391-468d-a40f-f81d4749c4d7",
+          "name": "Platinum Ticket",
+          "price": 9999.99,
+          "totalAvailable": 100,
+          "description": "Test Description"
+        }
+      ]
+    },
+    {
+      "id": "2a06",
+      "name": "Test Event 2",
+      "start": "2025-05-08T09:00:00.000Z",
+      "end": "2025-05-08T21:00:00.000Z",
+      "venue": "A very big venue.",
+      "salesStart": "2025-05-07T15:00:00.000Z",
+      "salesEnd": "2025-05-07T21:00:00.000Z",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "VIP",
+          "price": 99.99,
+          "description": "Test ticket type",
+          "totalAvailable": 100
+        }
+      ]
+    },
+    {
+      "id": "008f",
+      "name": "Mystery Event",
+      "start": "2025-05-08T11:00:00.000Z",
+      "end": "2025-05-08T11:00:00.000Z",
+      "venue": "Who knows?!",
+      "salesStart": "2025-05-08T11:00:00.000Z",
+      "salesEnd": "2025-05-08T11:00:00.000Z",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "Mystery Ticket Type",
+          "price": 123,
+          "description": "??????",
+          "totalAvailable": 999
+        }
+      ]
+    },
+    {
+      "id": "73ef",
+      "name": "Mystery Event 2",
+      "venue": "Who knows this time?",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "Mystery Ticket Type 2",
+          "price": 123,
+          "description": "dsafsdafsfdsadf",
+          "totalAvailable": 99
+        }
+      ]
+    },
+    {
+      "id": "26d8",
+      "name": "Test Event 3",
+      "start": "2025-05-06T09:00:00.000Z",
+      "end": "2025-05-06T13:00:00.000Z",
+      "venue": "Some venue details",
+      "status": "DRAFT",
+      "ticketTypes": [
+        {
+          "name": "VIP",
+          "price": 999,
+          "description": "sdkjbfjkhdsbff",
+          "totalAvailable": 5
+        }
+      ]
+    },
+    {
+      "id": "d5ab",
+      "name": "Test Drift UPDATED",
+      "start": "2025-05-08T15:00:00.000Z",
+      "end": "2025-05-08T16:00:00.000Z",
+      "venue": "UPDATE",
+      "salesStart": "2025-05-22T11:00:00.000Z",
+      "salesEnd": "2025-05-07T10:00:00.000Z",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "id": "008f",
+          "name": "kjbdsfkjbdf",
+          "price": 999,
+          "description": "jkdsbfjhbdfb",
+          "totalAvailable": 1
+        },
+        {
+          "name": "NEW ",
+          "price": 123,
+          "description": "NEW NEW",
+          "totalAvailable": 456
+        }
+      ]
+    },
+    {
+      "id": "4f34",
+      "name": "Test Drift 2",
+      "start": "2025-05-08T10:00:00.000Z",
+      "end": "2025-05-08T15:00:00.000Z",
+      "venue": "asdasdasdasdasdas",
+      "status": "DRAFT",
+      "ticketTypes": []
+    },
+    {
+      "id": "4187",
+      "name": "Test Drift",
+      "start": "2025-05-08T10:00:00.000Z",
+      "end": "2025-05-08T15:00:00.000Z",
+      "venue": "kjbdskjbff",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "kjbdsfkjbdf",
+          "price": 999,
+          "description": "jkdsbfjhbdfb",
+          "totalAvailable": 1
+        }
+      ]
+    },
+    {
+      "id": "b048",
+      "name": "Test Drift",
+      "start": "2025-05-08T10:00:00.000Z",
+      "end": "2025-05-08T15:00:00.000Z",
+      "venue": "kjbdskjbff",
+      "status": "PUBLISHED",
+      "ticketTypes": [
+        {
+          "name": "kjbdsfkjbdf",
+          "price": 999,
+          "description": "jkdsbfjhbdfb",
+          "totalAvailable": 1
+        }
+      ]
+    }
+  ],
+  "tickets": [
+    {
+      "id": "a271bce4-55f2-44e9-a8d6-bf25b1306bfc",
+      "status": "PURCHASED",
+      "price": 300.0,
+      "description": "Seated",
+      "eventName": "Big Concert",
+      "eventVenue": "The Stadium",
+      "eventStart": "2025-06-13T15:00:00",
+      "eventEnd": "2025-06-14T18:00:00"
+    }
+  ]
+}
